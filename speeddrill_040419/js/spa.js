@@ -1,4 +1,4 @@
-var app = angular.module('customersApp',['ngRoute']);
+var app = angular.module('Et-710',['ngRoute']);
 app.config(function($routeProvider) {
   $routeProvider.when('/',
     {
