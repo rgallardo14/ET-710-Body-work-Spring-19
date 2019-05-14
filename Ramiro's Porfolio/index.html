@@ -37,6 +37,8 @@
     <link rel="stylesheet" href="css/content.css">
     <link rel="stylesheet" href="css/footer.css">
 
+    <link rel="stylesheet" href="css/parallax.css">
+
   </head>
   <body>
 <!--(: Begin Nav:)-->
@@ -72,10 +74,19 @@
 
 <!--(: Begin sub-Nav:)-->
 
+<header class="portfolio-hero-header">
+  <img class="portfolio-hero-header-logo" src="img\20190418_220350.jpg"/>
+  <ul class="portfolio-hero-header-description">
+    <li>Graphic designer/Photographer</li>
+  </ul>
+</header>
+
 <!--(: End sub-Nav:)-->
 
 
 <!--(: Begin Header:)-->
+<!--Begin Hero-->
+
 <div class="hero-full-screen">
 <!--
 <div class="top-content-section">
@@ -99,14 +110,74 @@
     -->
   </div>
 
-<!--
+<!-- breaks code***
   <div class="bottom-content-section" data-magellan data-threshold="0">
-    <a href="#main-content-section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z"/></svg></a>
+  -->
+    <a href="#main-content-section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z"/></svg></a>
   </div>
--->
+
 </div>
+<!--End Hero-->
+
+
+<!-- Begin img slide-->
+<!-- To be dicided
+     <div class="fullscreen-image-slider">
+     <div  role="region" aria-label="FullScreen Pictures" data-orbit>
+       <ul class="orbit-container">
+         <button class="orbit-previous">
+           <span class="show-for-sr">Previous Slide</span>
+           <span class="nav fa fa-chevron-left fa-3x"></span>
+         </button>
+         <button class="orbit-next">
+           <span class="show-for-sr">Next Slide</span>
+           <span class="nav fa fa-chevron-right fa-3x"></span>
+         </button>
+         <li class="is-active orbit-slide">
+
+         	<a href="#main-content-section">
+           		<img class="orbit-image" src="https://s3.us-east-2.amazonaws.com/emmawen/FINISHED+1+Digital+video+board+horizontal.jpg" alt="Space">
+           </a>
+           <figcaption class="orbit-caption">
+           </figcaption>
+         </li>
+         <li class="orbit-slide">
+        	<a href="#main-content-section">
+           		<img class="orbit-image" src="https://s3.us-east-2.amazonaws.com/emmawen/IMG_9672.jpg" alt="Space">
+           	</a>
+           <figcaption class="orbit-caption">
+           </figcaption>
+         </li>
+         <li class="orbit-slide">
+         	<a href="#main-content-section">
+           		<img class="orbit-image" src="https://s3.us-east-2.amazonaws.com/emmawen/LU_WEN+PopcornBagTemplate.jpg" alt="Space">
+           	</a>
+           <figcaption class="orbit-caption">
+           </figcaption>
+         </li>
+         <li class="orbit-slide">
+         	<a href="#main-content-section">
+           		<img class="orbit-image" src="https://s3.us-east-2.amazonaws.com/emmawen/Screen+Shot+2019-04-09+at+00.12.05.png" alt="Space">
+           	</a>
+           <figcaption class="orbit-caption">
+           </figcaption>
+           <li class="orbit-slide">
+           	<a href="#main-content-section">
+             	<img class="orbit-image" src="https://s3.us-east-2.amazonaws.com/emmawen/Screen+Shot+2019-04-09+at+00.11.20.png" alt="Space">
+            </a>
+             <figcaption class="orbit-caption">
+             </figcaption>
+         </li>
+       </ul>
+     </div>
+   </div>
+</div>
+-->
+<!-- End img Slide-->
 
 <!--(: End Header:)-->
+
 
 
 <!--(: Begin Content:)-->
@@ -119,7 +190,7 @@
   <hr>
   <h1> {{yourName}}</h1>
 </div>
--->
+
 <!--(: End agularjs:)-->
 <!--(: End Content:)-->
 
@@ -143,11 +214,13 @@
             <div class="medium-4 cell">
               <h4 class="marketing-site-footer-name">Et710</h4>
               <p>Building and maintaining websites.</p>
+              <!--
               <ul class="menu marketing-site-footer-menu-social simple">
                 <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
                  <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                  <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
               </ul>
+            -->
             </div>
             <div class="medium-4 cell">
                <h4 class="marketing-site-footer-title">Contact Info</h4>
@@ -168,7 +241,7 @@
               <h4 class="marketing-site-footer-title">Photos</h4>
                 <div class="grid-x grid-padding-y">
     	    	<div class="large-4 medium-6 small-12 cell">
-                  <img src="https://placehold.it/75" alt="" />
+                  <img src="img\20190421_131703.jpg" alt="" />
                 </div>
     	    	<div class="large-4 medium-6 small-12 cell">
                   <img src="https://placehold.it/75" alt="" />
